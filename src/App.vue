@@ -1,10 +1,6 @@
-<!-- <script setup>
-import HelloWorld from './components/HelloWorld.vue';
-
-
-</script> -->
-
 <script>
+
+import AppTitle from './/components/AppTitle.vue';
 
 export default
   {
@@ -13,6 +9,10 @@ export default
         message: "Hello Vite"
       }
     },
+
+    components: {
+      AppTitle
+    }
   }
 
 </script>
@@ -35,5 +35,7 @@ export default
 </style>
 
 <template>
-  <h1>{{ message }}</h1>
+  <AppTitle />
+
+  <h2>{{ message }}</h2>
 </template>
