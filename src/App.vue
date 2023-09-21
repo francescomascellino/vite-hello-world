@@ -1,6 +1,7 @@
 <script>
 
-import AppTitle from './/components/AppTitle.vue';
+import AppTitle from './components/AppTitle.vue';
+import AppHero from './components/AppHero.vue';
 
 export default
   {
@@ -11,7 +12,8 @@ export default
     },
 
     components: {
-      AppTitle
+      AppTitle,
+      AppHero
     }
   }
 
@@ -35,6 +37,8 @@ export default
 </style>
 
 <template>
+  <AppHero></AppHero>
+
   <AppTitle />
 
   <h2>{{ message }}</h2>
