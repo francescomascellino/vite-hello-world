@@ -4,16 +4,22 @@
 
 <template>
   <div class="hero">
-    <h1>APP HERO TEST</h1>
+    <h1>Vue.js Hero component</h1>
   </div>
 </template>
 
 <style>
 .hero {
-  background-color: antiquewhite;
-  width: 100%;
+  padding: 1rem 0;
   height: 125px;
-  color: red;
+  color: darkred;
+  background-image: url(..//assets/vue.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 </style>
 
