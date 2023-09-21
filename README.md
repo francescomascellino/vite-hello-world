@@ -5,7 +5,7 @@ This is a simple test using Vite and Vue 3 components
 
 Vite è uno strumento di compilazione
 
-###Comandi più comuni
+### Comandi più comuni
 
 npm create vite @latest (creazione guidata del progetto)
 
