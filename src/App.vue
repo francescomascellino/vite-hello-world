@@ -1,5 +1,6 @@
 <script>
 
+// OGNI COMPONENTE VIENE IMPORTATO E ASSEGNATO A UN IDENTIFICATIVO
 import AppTitle from './components/AppTitle.vue';
 import AppHero from './components/AppHero.vue';
 
@@ -11,6 +12,7 @@ export default
       }
     },
 
+    // DOPO DEVONO ESSERE DICHIARATI NEL COMPONENT OBJECT
     components: {
       AppTitle,
       AppHero
@@ -37,6 +39,7 @@ export default
 </style>
 
 <template>
+  <!-- I COMPONENTI POSSO ESSERE AGGIUNTI AL TEMPLATE DI App.vue IN DUE MODI: -->
   <AppHero></AppHero>
 
   <AppTitle />

@@ -1,13 +1,15 @@
 <script>
-
+// QUESTO COMPONENTE NON RICHEDE SCRIPT
 </script>
 
+<!-- QUESTO E' IL MARKUP CHE VERRA' IMPORTATO -->
 <template>
   <div class="hero">
     <h1>Vue.js Hero component</h1>
   </div>
 </template>
 
+<!-- A SEGUIRE IL CSS DA APPLICARE AL MARKUP DI QUESTO COMPONENTE -->
 <style>
 .hero {
   padding: 1rem 0;
