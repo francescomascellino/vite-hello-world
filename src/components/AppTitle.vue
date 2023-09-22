@@ -1,5 +1,16 @@
+<script>
+
+export default
+    {
+
+        name: 'AppTitle',
+
+    }
+
+</script>
+
 <!-- QUESTO E' IL MARKUP CHE VERRA' IMPORTATO -->
 <template>
-  <h1>La mia prima app con Vite!</h1>
+    <h1>La mia prima app con Vite!</h1>
 </template>
 

@@ -5,27 +5,27 @@ import AppTitle from './components/AppTitle.vue';
 import AppHero from './components/AppHero.vue';
 
 export default
-  {
-    data() {
-      return {
-        message: "Hello Vite"
-      }
-    },
+	{
+		data() {
+			return {
+				message: "Hello Vite"
+			}
+		},
 
-    // DOPO DEVONO ESSERE DICHIARATI NEL COMPONENT OBJECT
-    components: {
-      AppTitle,
-      AppHero
-    }
-  }
+		// DOPO DEVONO ESSERE DICHIARATI NEL COMPONENT OBJECT
+		components: {
+			AppTitle,
+			AppHero
+		}
+	}
 
 </script>
 
 <template>
-  <!-- I COMPONENTI POSSO ESSERE AGGIUNTI AL TEMPLATE DI App.vue IN DUE MODI: -->
-  <AppHero></AppHero>
+	<!-- I COMPONENTI POSSO ESSERE AGGIUNTI AL TEMPLATE DI App.vue IN DUE MODI: -->
+	<AppHero></AppHero>
 
-  <AppTitle />
+	<AppTitle />
 
-  <h2>{{ message }}</h2>
+	<h2>{{ message }}</h2>
 </template>
