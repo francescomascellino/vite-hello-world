@@ -22,7 +22,7 @@ export default
     padding: 1rem 0;
     height: 125px;
     color: darkred;
-    background-image: url(..//assets/vue.svg);
+    background-image: url(../assets/vue.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
